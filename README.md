@@ -1,3 +1,15 @@
+git remote add jwasham https://github.com/jwasham/coding-interview-university
+
+git fetch --all
+
+git add .
+
+git commit -m "Marked x"
+
+git rebase jwasham/master
+
+git push --force
+
 # Coding Interview University
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
@@ -64,9 +76,9 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
+[X]- [What is it?](#what-is-it)
+[X]- [Why use it?](#why-use-it)
+[X]- [How to use it](#how-to-use-it)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
